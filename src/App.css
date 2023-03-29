@@ -1,0 +1,185 @@
+.app{
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+height: 200px;
+width: 100%;
+/* background-color: #e8fabd; */
+}
+.header {
+  position: fixed;
+  top:0; 
+  left:0;
+  width: 100%; 
+  height: 60px;
+  background: #56e776;  
+}
+.profile{
+  margin-left: 1650px;
+}
+.task{
+position:relative; 
+bottom:40px; 
+text-shadow: 2px 2px;
+}
+.sidebar {
+position: fixed;
+width: 200px;
+height: 100%;
+background-color: rgb(245, 164, 238);
+font-size: 20px;
+display: block;
+}
+.footer {
+position: fixed;                          
+left: 0;
+bottom: 0;
+width: 100%;
+height: 60px;
+background: #48c5eb;
+color: white;
+text-align: center;
+  }
+  .icon {
+    border: 1px solid #ddd;
+    clip-path: ellipse(15% 15% at 50% 50%);
+    width: 90px;
+    margin-left:1600px;
+    position:relative; 
+    bottom:20px; 
+  } 
+  .tedy{
+    width:300px;
+    height: 300px;
+    margin-left: 1000px;
+    position: fixed; 
+    background-size: 100%;
+    border-radius: 2px; 
+    margin-top: 200px;
+}
+.flow{
+  width:300px;
+  height: 300px;
+  margin-left: 400px;
+  position: fixed; 
+  background-size: 100%;
+  border-radius: 6px; 
+  margin-top: 200px;
+
+}
+.flow1{
+  width:200px;
+  height: 200px;
+  margin-left: 800px;
+  position: fixed; 
+  background-size: 100%;
+  border-radius: 4px; 
+  margin-top: 200px;
+}
+.text-block {
+
+margin-bottom: 50px;
+  right: 20px;
+  color: rgb(228, 35, 35);
+}
+.tedy1{
+  width:300px;
+  height: 300px;
+  margin-left: 400px;
+  position: fixed; 
+  background-size: 100%;
+  border-radius: 4px; 
+  margin-top: 200px;
+}
+.text{
+  
+margin-top: 500px;
+margin-left: 400px;
+color: rgb(64, 61, 240);
+}
+.loginBackground{
+  background-image:url('C:\Users\sbalisetti\Downloads\bg.jpg') ;
+ font-size: 30px;
+ height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.loginCard{
+  padding-left: 670px;
+  padding-top: 280px
+} 
+.loginCard2{
+  padding-left: 670px;
+  padding-top: 280px
+} 
+.image1{
+  width: 450px;
+  height: 650px;
+    background-color: hsl(120, 11%, 11%);
+    bottom: 150px;
+    right: 200px;
+
+} 
+  .image2{
+    width: 450px;
+    height: 650px;
+    background-color:rgb(5, 135, 187);
+    bottom: 1080px;
+    right: 365px;
+    opacity: 0.4;
+
+  } 
+
+  .loginCardHeader{
+    text-align: center;
+    color: white;
+  }
+
+  .emailLabel{
+    text-align: center;
+    padding-top: 20px;
+    width: 400px
+  }
+  .passwordLabel{
+    width: 400px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .ico{
+    position: absolute;
+    left: 370px;
+    bottom: 70px;
+    width: 60px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6em;
+  }
+  .icoo{
+    position: absolute;
+    left: 370px;
+    top: 35px;
+    width: 60px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6em;
+  }
+
+  .loginbutton {
+    background-color: rgb(5, 135, 187);
+width: 400px;
+border: 0px;
+color: white;
+    }
+  .mi{
+    color: white;
+    margin-top:60px;
+  }
+  .ss{
+    color: rgb(5, 135, 187);
+
+  }
