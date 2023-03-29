@@ -21,7 +21,6 @@ return (
     <p>"The city of light"</p>
   </div>
 </div>
-  
     <div>
       <img class="flow" src={flower2} alt="imag"/>
       <div className="text">

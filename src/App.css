@@ -4,7 +4,8 @@ flex-direction: column;
 min-height: 100vh;
 height: 200px;
 width: 100%;
-/* background-color: #e8fabd; */
+overflow: hidden;
+background-color: #e8fabd;
 }
 .header {
   position: fixed;
@@ -114,26 +115,30 @@ color: rgb(64, 61, 240);
   padding-top: 280px
 } 
 .image1{
-  width: 450px;
-  height: 650px;
+  width: 470px;
+    height: 700px;
     background-color: hsl(120, 11%, 11%);
-    bottom: 150px;
+    bottom: 200px;
     right: 200px;
 
 } 
   .image2{
-    width: 450px;
-    height: 650px;
-    background-color:rgb(5, 135, 187);
-    bottom: 1080px;
-    right: 365px;
+    width: 470px;
+    height: 700px;
+    background-color:hwb(197 2% 7%);
+    bottom: 1180px;
+    right: 385px;
     opacity: 0.4;
+
 
   } 
 
   .loginCardHeader{
+    width: 450px;
     text-align: center;
     color: white;
+    font-size:x-large;
+    
   }
 
   .emailLabel{
@@ -143,13 +148,13 @@ color: rgb(64, 61, 240);
   }
   .passwordLabel{
     width: 400px;
-    padding-top: 20px;
+    padding-top: 05px;
     text-align: center;
   }
   .ico{
     position: absolute;
     left: 370px;
-    bottom: 70px;
+    bottom: 30px;
     width: 60px;
     height: 100%;
     display: flex;
@@ -160,7 +165,7 @@ color: rgb(64, 61, 240);
   .icoo{
     position: absolute;
     left: 370px;
-    top: 35px;
+    top: 55px;
     width: 60px;
     height: 100%;
     display: flex;
@@ -174,12 +179,43 @@ color: rgb(64, 61, 240);
 width: 400px;
 border: 0px;
 color: white;
+transition-delay: 10s;
+
     }
   .mi{
-    color: white;
+    color: #ffffff;
     margin-top:60px;
+    filter: contrast(2.6);
   }
   .ss{
     color: rgb(5, 135, 187);
-
   }
+  .con{
+    color: white;
+    margin-top: 250px;
+    margin-left: 300px;
+  }
+  .con1{
+white-space: nowrap;
+position:relative;
+right: 110px;
+font-weight: bold;
+  }
+  .con2{
+    color: white;
+    white-space: nowrap;
+    position:relative;
+    right: 185px;
+  }
+  .mir{
+    width: auto;
+    height: 30%;
+  }
+.mira{
+  height: 75px;
+width: 250px;
+margin-top: 90px;
+}
+
+
+  
