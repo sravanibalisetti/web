@@ -1,3 +1,5 @@
+
+
 import React from 'react';
 import teddy from './teddy.jpg';
 import teddy1 from './teddy1.jpg';
@@ -21,4 +23,3 @@ function About() {
   )
 }
 export default About;
-
