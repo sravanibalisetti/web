@@ -94,7 +94,6 @@ const checkValidation =()=>{
             
                 </div>
 </Card>
-
 </div>
   </div>
 
